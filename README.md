@@ -24,7 +24,7 @@ through the online user interface.
 
 * How to run the program
 ```
-With 2 additional gitbash terminals
+With 3 gitbash terminals
  - terminal 2 : npx hardhat node
  - terminal 3 : npx hardhat run --network localhost scripts/deploy.js
  - terminal 1 : npm run dev
