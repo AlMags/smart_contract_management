@@ -1,12 +1,41 @@
-# Starter Next/Hardhat Project
+# Project Title
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Smart Contract Management - ETH + AVAX - Assessment Submission
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+With the modified contract and template given, some simple additional functionalities were added. 
+The ability to add any number specifically to withdraw or deposit was added as a functionality into the
+program. Additionally, some simple CSS design was added to the templated front-end.
+
+## Getting Started
+
+The program was created using Solidity, Javascript, HTML, and CSS. 
+With a Metamask wallet, connect it to the front end and have transactions be done to your wallet
+through the online user interface.
+
+### Installing
+
+* Firstly, run this command in your VSCode gitbash terminal: npm i
+   - If necessary, you may need to run: npm audit fix --force
+
+
+### Executing program
+
+* How to run the program
+```
+With 2 additional gitbash terminals
+ - terminal 2 : npx hardhat node
+ - terminal 3 : npx hardhat run --network localhost scripts/deploy.js
+ - terminal 1 : npm run dev
+Go to your http://localhost:3000
+ - connect your wallet
+ - transact with your wallet with the available buttons and fields available
+```
+
+## Authors
+
+Alkier Magallanes
+magallanesalkier@gmail.com
+
+
